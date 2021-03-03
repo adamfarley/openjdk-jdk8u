@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 8072909
- * @run main/othervm -Xms770m -Xmx1540 TimSortStackSize2 67108864
+ * @run main/othervm -Xms770m -Xmx1540m TimSortStackSize2 67108864
  * @summary Test TimSort stack size on big arrays
  * big tests not for regular execution on all platforms:
  * run main/othervm -Xmx8g TimSortStackSize2 1073741824
